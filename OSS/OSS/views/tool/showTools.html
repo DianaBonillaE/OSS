@@ -1,0 +1,272 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Operation of Security System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="showTools.css" />
+</head>
+
+<body background="/assets/fondo2.jpg">
+
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-3 sidenav">
+                <div class="container">
+                    <ul id="accordion" class="accordion">
+                        <li>
+                            <div class="link"></div>
+                        </li>
+                        <li>
+                            <div class="link">
+                                <i class="fa fa-paint-brush"></i>Usuarios
+                                <i class="fa fa-chevron-down"></i>
+                            </div>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">Ingresar un usuario nuevo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Buscar un usuario</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ver todos los usuarios</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ingresar rol de usuario nuevo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Buscar un rol</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ver todos los roles</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link">
+                                <i class="fa fa-mobile"></i>Clientes
+                                <i class="fa fa-chevron-down"></i>
+                            </div>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">Ingresar un nuevo cliente</a>
+                                </li>
+                                <li>
+                                    <a href="#">Buscar un cliente</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ver todos lo clientes</a>
+                                </li>
+                                <li>
+                                    <a href="#">Buscar un grupo de clientes</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link">
+                                <i class="fa fa-globe"></i>Orden de trabajo
+                                <i class="fa fa-chevron-down"></i>
+                            </div>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">Crear listas de materiales, herramientas o equipo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Buscar una lista</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ver todas las listas</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link">
+                                <i class="fa fa-globe"></i>Inventario
+                                <i class="fa fa-chevron-down"></i>
+                            </div>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">Ingresar categorías</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ver categorías</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ingresar unidades de medida</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ver unidades de medida</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ingresar modelo y marca del equipo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ver modelo y marca del equipo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ingresar material</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ver el material</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ingresar equipo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ver equipo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ingresar herramientas</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ver herramientas</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="link">
+                                <i class="fa fa-globe"></i>Reportes
+                                <i class="fa fa-chevron-down"></i>
+                            </div>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">Ordenes de trabajo según su tipo y fecha</a>
+                                </li>
+                                <li>
+                                    <a href="#">Orden de trabajo de un cliente y una fecha en específico</a>
+                                </li>
+                                <li>
+                                    <a href="#">Consumo de materiales y equipo durante un mes establecido</a>
+                                </li>
+                                <li>
+                                    <a href="#">Inventario agotado</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <ul class="nav navbar-nav navbar-right" style="margin-right: 0%">
+                    <li>
+                        <a href="#" style="color: white !important; font-size: 18px;">
+                            <span class="glyphicon glyphicon-user"></span> Cerrar sesión
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <br>
+            <hr>
+
+
+
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+                <br>
+
+                <div class="demo-2">
+                    <form class="form-search">
+                        <div class="input-group">
+                            <input class="form-control form-text" maxlength="128" placeholder="Buscar" size="15" type="text" />
+                            <span class="input-group-btn"><button class="btn btn-primary"><i class="fa fa-search fa-lg">&nbsp;</i></button></span>
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+                <table class="table table-hover">
+                    <h3>Lista de herramientas</h3>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Unid.med</th>
+                            <th>Cantidad</th>
+                            <th>Descripción</th>
+                            <th>Editar</th>
+                            <th>Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Desatornillador</td>
+                            <td>Unidad</td>
+                            <td>10</td>
+                            <td>Plano</td>
+                            <td>
+                                <a href="editTool.html">
+                                    <img src="/assets/editar.png" alt="" width="40px" height="40px">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="" data-toggle="modal" data-target="#gridTools">
+                                    <img src="/assets/basura.png" alt="" width="40px" height="40px">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Desatornillador</td>
+                            <td>Unidad</td>
+                            <td>20</td>
+                            <td>Filex</td>
+                            <td>
+                                <a href="editTool.html">
+                                    <img src="/assets/editar.png" alt="" width="40px" height="40px">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="" data-toggle="modal" data-target="#gridTools">
+                                    <img src="/assets/basura.png" alt="" width="40px" height="40px">
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="modal fade" role="dialog" id="gridTools" tabindex="-1" aria-labelledby="gridModalLabel" style="display: none;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                        <h4 style="color: black;" class="modal-title" id="gridModalLabel">Eliminar herramienta</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h3 style="color: black">¿Está seguro que desea eliminar esta herramienta?</h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-2 text-center ">
+            <br>
+            <h4 class="margin">TVO Seguridad Electronica</h4>
+        </div>
+
+        <script src="login.js"></script>
+</body>
+
+</html>

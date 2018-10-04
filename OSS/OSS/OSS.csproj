@@ -104,7 +104,6 @@
     <Content Include="views\material\formulario.css" />
     <Content Include="views\material\infoMaterial.html" />
     <Content Include="views\material\menu.css" />
-    <Content Include="views\material\menu.js" />
     <Content Include="views\material\searchMaterial.html" />
     <Content Include="views\role\addRole.css" />
     <Content Include="views\role\addRole.html" />

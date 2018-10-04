@@ -83,6 +83,7 @@
   <ItemGroup>
     <Content Include="assets\cliente.png" />
     <Content Include="assets\fondo2.jpg" />
+    <Content Include="assets\unknow.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Index.html" />
     <Content Include="menu.js" />
@@ -98,6 +99,12 @@
     <Content Include="views\client\addClient.html" />
     <Content Include="views\client\editclient.html" />
     <Content Include="views\client\searchClients.html" />
+    <Content Include="views\material\addMaterial.html" />
+    <Content Include="views\material\editMaterial.html" />
+    <Content Include="views\material\formulario.css" />
+    <Content Include="views\material\infoMaterial.html" />
+    <Content Include="views\material\menu.css" />
+    <Content Include="views\material\menu.js" />
     <Content Include="views\role\addRole.css" />
     <Content Include="views\role\addRole.html" />
     <Content Include="views\role\editRole.css" />

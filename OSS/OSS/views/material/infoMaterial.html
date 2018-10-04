@@ -1,14 +1,17 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<!doctype html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
+    <title>Operation of Security System</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="menu.css" />
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="formulario.css" />
 </head>
+
 <body background="/assets/fondo2.jpg">
 
     <div class="container-fluid">
@@ -26,10 +29,10 @@
                             </div>
                             <ul class="submenu">
                                 <li>
-                                    <a href="">Ingresar un usuario nuevo</a>
+                                    <a href="#">Ingresar un usuario nuevo</a>
                                 </li>
                                 <li>
-                                    <a href="">Buscar un usuario</a>
+                                    <a href="#">Buscar un usuario</a>
                                 </li>
                                 <li>
                                     <a href="#">Ver todos los usuarios</a>
@@ -52,13 +55,13 @@
                             </div>
                             <ul class="submenu">
                                 <li>
-                                    <a href="views/client/addClient.html">Ingresar un nuevo cliente</a>
+                                    <a href="#">Ingresar un nuevo cliente</a>
                                 </li>
                                 <li>
-                                    <a href="views/client/searchClients.html">Buscar un cliente</a>
+                                    <a href="#">Buscar un cliente</a>
                                 </li>
                                 <li>
-                                    <a href="views/client/showClients.html">Ver todos lo clientes</a>
+                                    <a href="#">Ver todos lo clientes</a>
                                 </li>
                                 <li>
                                     <a href="#">Buscar un grupo de clientes</a>
@@ -78,7 +81,7 @@
                                     <a href="#">Buscar una lista</a>
                                 </li>
                                 <li>
-                                    <a href="views/workOrder/showWorkOrders.html">Ver todas las listas</a>
+                                    <a href="#">Ver todas las listas</a>
                                 </li>
                             </ul>
                         </li>
@@ -89,10 +92,10 @@
                             </div>
                             <ul class="submenu">
                                 <li>
-                                    <a href="views/category/addCategory.html">Ingresar categorías</a>
+                                    <a href="#">Ingresar categorías</a>
                                 </li>
                                 <li>
-                                    <a href="views/category/showCategories.html">Ver categorías</a>
+                                    <a href="#">Ver categorías</a>
                                 </li>
                                 <li>
                                     <a href="#">Ingresar unidades de medida</a>
@@ -107,7 +110,7 @@
                                     <a href="#">Ver modelo y marca del equipo</a>
                                 </li>
                                 <li>
-                                    <a href="views/material/addMaterial.html">Ingresar material</a>
+                                    <a href="#">Ingresar material</a>
                                 </li>
                                 <li>
                                     <a href="#">Ver el material</a>
@@ -154,16 +157,57 @@
                 <ul class="nav navbar-nav navbar-right" style="margin-right: 0%">
                     <li>
                         <a href="#" style="color: white !important; font-size: 18px;">
-                            <span class="glyphicon glyphicon-user"></span> Cerrar sesión
-                        </a>
+                            <span class="glyphicon glyphicon-user"></span> Cerrar sesión</a>
                     </li>
                 </ul>
             </div>
-  
-                            
+            <br>
+            <br>
+            <hr>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+
+                <div id="pricing" class="container-fluid">
+                    <div class="row slideanim">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <h2>Material</h2>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="/assets/unknow.jpg" class="img-responsive" alt="Cinque Terre">
+                                        <br>
+                                    </div>
+                                    <div class="col-sm-2"></div>
+                                    <a href="edit" type="submit" class="btn btn-warning">Editar</a>
+                                    <a href="delete" type="submit" class="btn btn-danger">Eliminar</a>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <h5 style="margin-left:-54%" class="info">Nombre:</h5>
+                                        <h5 style="margin-left:-18%" class="info">Unidad de Medida:</h5>
+                                        <h5 style="margin-left:-50%" class="info">Cantidad:</h5>
+                                        <h5 style="margin-left:-58%" class="info">Marca:</h5>
+                                        <h5 style="margin-left:-40%" class="info">Descripción:</h5>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h5 style="margin-left:-76%" class="info">Nombre</h5>
+                                        <h5 style="margin-left:-18%" class="info">Unidad de Medida</h5>
+                                        <h5 style="margin-left:-70%" class="info">Cantidad</h5>
+                                        <h5 style="margin-left:-84%" class="info">Marca</h5>
+                                        <h5 style="margin-left:-54%" class="info">Descripción</h5>
+                                    </div>
+                                </div>
+                                <br>
+                                <a href="" type="submit" class="btn btn-danger">Salir</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid bg-2 text-center ">
         <br>
